@@ -25,9 +25,9 @@
 	<nav class="navbar navbar-expand-lg bg-navbar p-0">
 		<div class="container">
 			<a class="navbar-brand fw-semibold text-white" href="#home">My-Shop</a>
-			<span class="text-white" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				Menu <i class="bi bi-list"></i>
-			</span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav animasi ms-auto p-0" id="menu">
 					<li class="nav-item p-3">
