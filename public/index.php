@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Shop</title>
-	<!-- fonts google 'ubuntu' -->
+	<!-- fonts google 'Ubuntu' -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
@@ -66,9 +66,9 @@
 			<div class="d-flex">
 				<select class="form-select select-filter me-1" aria-label=" example" aria-placeholder="Filter">
 					<option value="" disabled selected hidden>Filter</option>
-					<option value="1">Termurah</option>
-					<option value="2">Termahal</option>
-					<option value="3">Terlaris</option>
+					<option value="termurah">Termurah</option>
+					<option value="termahal">Termahal</option>
+					<option value="terlaris">Terlaris</option>
 				</select>
 				<i class="bi bi-filter bi-2 text-white"></i>
 			</div>
