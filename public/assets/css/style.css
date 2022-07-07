@@ -1,0 +1,90 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	height: 2000px;
+}
+.bg-navbar{
+	background-color: #FFB562;
+}
+.navbar{
+	box-sizing: border-box;
+	border-radius: 0 0 12px 12px;
+	width: 100%;
+	padding: 0;
+}
+.nav-item{
+	font-weight: 500;
+	color: wheat;
+}
+.nav-item:hover{
+	transition: all ease 300ms;
+	background-color: #f19f41;
+	border-radius: 3px;
+}
+header{
+	width: 100%;
+}
+input[type=search] {
+	font-size: 18px;
+	width: 100%;
+	padding: 14px 15px;
+	margin: 8px 0;
+	border: 1px solid skyblue;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+}
+input[type=search]:focus {
+	outline: none;
+}
+/* media query */
+@media screen and (max-width: 992px) {
+	.navbar-brand{
+		display: none !important;
+	}
+	#menu {
+		transition: all ease 500ms;
+		position: fixed;
+		background-color: #f19f41;
+		z-index: 999;
+		color: white;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 250px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+/* scroll top */
+#tombolScrollTop {
+	z-index: 99999;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	font-size: 4em;
+	cursor: pointer;
+	color: blue;
+}
+.btn:focus{
+	outline: 2px solid wheat !important;
+	box-shadow: none !important;
+}
+.select-filter{
+	max-width: 150px !important;
+	outline: none;
+	box-shadow: none !important;
+}
+.bi-2{
+	font-size: 2rem;
+}
+.text-justify{
+	text-align: justify;
+}
+/* TERLARIS */
+#terlaris{
+	height: 800px;
+}
