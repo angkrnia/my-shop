@@ -25,21 +25,25 @@
 	<nav class="navbar navbar-expand-lg bg-navbar p-0">
 		<div class="container">
 			<a class="navbar-brand fw-semibold text-white" href="#home">My-Shop</a>
-			<ul class="navbar-nav ms-auto p-0" id="menu">
-				<li class="nav-item p-3">
-					<a class="nav-link text-white" aria-current="page" href="#koleksi">Koleksi</a>
-				</li>
-				<li class="nav-item p-3">
-					<a class="nav-link text-white" href="#terlaris">Terlaris</a>
-				</li>
-				<li class="nav-item p-3">
-					<a class="nav-link text-white" href="#">Kontak</a>
-				</li>
-				<li class="p-3">
-					<a class="btn btn-outline-secondary px-4 text-white" href="#">Join</a>
-				</li>
-			</ul>
-		</div>
+			<span class="text-white" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				Menu <i class="bi bi-list"></i>
+			</span>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav animasi ms-auto p-0" id="menu">
+					<li class="nav-item p-3">
+						<a class="nav-link text-white" aria-current="page" href="#koleksi">Koleksi</a>
+					</li>
+					<li class="nav-item p-3">
+						<a class="nav-link text-white" href="#terlaris">Terlaris</a>
+					</li>
+					<li class="nav-item p-3">
+						<a class="nav-link text-white" href="#">Kontak</a>
+					</li>
+					<li class="p-3">
+						<a class="btn btn-outline-secondary px-4 text-white" href="#">Join</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
@@ -64,13 +68,13 @@
 		<div class="container py-5 my-5">
 			<input class="mb-3 w-100" type="search" name="" id="" placeholder="Cari">
 			<div class="d-flex">
-				<select class="form-select select-filter me-1" aria-label=" example" aria-placeholder="Filter">
+				<select class="form-select select-filter me-1" id="filter" aria-label=" example" aria-placeholder="Filter">
 					<option value="" disabled selected hidden>Filter</option>
 					<option value="termurah">Termurah</option>
 					<option value="termahal">Termahal</option>
 					<option value="terlaris">Terlaris</option>
 				</select>
-				<i class="bi bi-filter bi-2 text-white"></i>
+				<i class="bi bi-filter bi-2 text-white" for="filter"></i>
 			</div>
 			<div class="row mt-3 justify-content-center">
 				<?php for ($i = 0; $i <= 10; $i++) : ?>
